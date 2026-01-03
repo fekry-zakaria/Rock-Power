@@ -1,2 +1,11 @@
+
+@font-face {
+    font-family: 'BungeeLayers';
+    src: url('./assets/fonts/BungeeLayers-Outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 @import "tailwindcss";
+
 @import "./styles/globals.css";
