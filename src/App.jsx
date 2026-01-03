@@ -16,7 +16,7 @@ function App() {
     <Navbar />
     <Home />
     <AboutUS />
-    <Ourwork/>
+    <Ourwork/>  
     <Contact/>
     <ConsultUs/>
     <Footer/>
