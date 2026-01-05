@@ -1,43 +1,52 @@
-import img1 from "../assets/images/img2-removebg-preview.png";
+import home from "../assets/images/home.png";
 const Home = () => {
   return (
    <>
-    <div className=" flex items-center">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center">
+<section>
+  <div className=" px-4 pt-6 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2  md:gap-8">
+      <div>
+        <div className="max-w-prose md:max-w-none">
+          <h2 className=" font-bold  text-[#bbfe32] text-3xl lg:text-7xl text-center">
+            من نحن
+          </h2>
+          <h2 className=" font-black  text-white text-3xl lg:text-3xl text-center mt-4">
+          WHO WE ARE
+          </h2>
 
-        {/* Text Column */}
-        <div className="px-6">
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold  text-[#bbfe32] mb-1 md:mb-1 lg:mb-4">
-            BOLD IDEAS 
-            
-          </h1>
-          <span className="text-xl md:text-3xl lg:text-5xl  text-white font-bold">MASSIVE IMPACT</span>
-          <p   className="text-gray-300 leading-relaxed text-xs md:text-s lg:text-lg text-shadow mt-6 font-extrabold ">
-          OUR MISSION IS TO EMPOWER BRANDS TO BUILD A STRONG PRESENCE AND 
-          STAND OUT ACROSS MARKETS THROUGH INTEGRATED  MARKETING
-          SOLUTIONS THAT COMBIME WELL.CRAFTED STRATEGY, CREATVE DESIGN,
-          AND CUTTING-EDGE TECHNOLOGY,WE BELIEVE THAT OUR CLIENTS'SUCCESS
-          IS AN EXTENSION OF OUR OWN, WHICH IS WHV WE TREAT EVERV CLIENT AS A
-          STRATEGIC PARTNER AND TRANSFORM THEIR VISIONS INTO TANGIBLE
-          ACHIEVEMENTS THROUGM A PROFESSIONAL TEAM COOMMITTED TO THE 
-          HIGHEST STANDARDS OF QUALITY AND SUSTAINABLE RESULTS.
-
-
+          <p className=" text-pretty text-white mt-6  text-lg">
+            <span className="text-[#bbfe32] px-0.5">  روك باور</span>
+             هي شركة رائدة في مجال التحول الرقمي والتسويق الالكتروني تاسست لتقديم حلول مبتكرة ومتطورة تُحدث فارقاً في عالم الاعمال . نحن متخصصون في تصميم وتنفيذ استراتيجيات تسويقية رقمية متكاملة ، تدمج بين الابداع ، التكنولوجيا ، والبيانات لتحقيق نتائج متميزة وقابلة للقياس
           </p>
 
-        </div>
+          <p className=" text-pretty text-white   text-lg">
+          نحن نعمل مع عملائنا كشركاء حقيقيين، ونفهم احتياجاتهم بشكل عميق لتقديم حلول مخصصة تدعم نمو أعمالهم في الأسواق التنافسية. عبر استخدام تقنيات التحليل المتقدم، نقدم أفكارًا مبتكرة تؤثر بشكل إيجابي في إستراتيجية التسويق الرقمي، مما يساعد على تعزيز ظهور العلامة التجارية، وزيادة تفاعل الجمهور. في  <span className="text-[#bbfe32] px-0.5">  روك باور</span>، نسعى دائمًا إلى تقديم أعلى مستويات الجودة والاحترافية، ونلتزم بتقديم نتائج تواكب تطلعات عملائنا وتحقق لهم النجاح المستدام.
+          </p>
 
-        {/* Image Column */}
-        <div className="flex justify-center">
-          <img
-            src={img1}
-            alt="Hero"
-            className="w-2xl "
-          />
-        </div>
+          <p className=" text-pretty text-white mt-6  text-lg direction-ltr text-left">
+            <span className="text-[#bbfe32] px-0.5">    Rock Power </span>
+           is a leading company in the field of digital transformation and online marketing, established to provide innovative and advanced solutions that make a real difference in the business world. We specialize in designing and implementing comprehensive digital marketing strategies that integrate creativity, technology, and data to achieve outstanding and measurable results.
 
+We work with our clients as true partners, deeply understanding their needs to deliver tailored solutions that support their business growth in competitive markets. Through the use of advanced analytics techniques, we offer innovative ideas that positively impact digital marketing strategies, helping to enhance brand visibility and increase audience engagement. At <span className="text-[#bbfe32] px-0.5">    Rock Power </span>, we always strive to deliver the highest levels of quality and professionalism, and we are committed to delivering results that align with our clients' aspirations and ensure their sustainable success.
+          </p>
+        </div>
       </div>
+
+      <div className="relative flex justify-center items-center">
+  {/* Glow */}
+  <div className="absolute w-[900px] h-[300px] bg-[#91e30d] opacity-25 blur-[120px] z-0" />
+
+  {/* Image */}
+  <img
+    src={home}
+    alt="home"
+    className="block h-[750px]"
+  />
+</div>
     </div>
+  </div>
+</section>
+   
    
    </>
   );

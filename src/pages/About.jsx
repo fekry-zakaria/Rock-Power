@@ -1,65 +1,53 @@
-import img1 from "../assets/images/img2-removebg-preview.png";
-import { BsFillPatchCheckFill } from "react-icons/bs";
-import { LuHandshake } from "react-icons/lu";
-import { GiAirtightHatch } from "react-icons/gi";
-import { RiCustomerService2Fill } from "react-icons/ri";
+import about from "../assets/images/about.jpeg";
+// import { BsFillPatchCheckFill } from "react-icons/bs";
+// import { LuHandshake } from "react-icons/lu";
+// import { GiAirtightHatch } from "react-icons/gi";
+// import { RiCustomerService2Fill } from "react-icons/ri";
 
 const AboutUS = () => {
   return (
-    <section className="py-12">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+    <>
+<section>
+  <div className=" px-4 pt-6 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2  md:gap-8">
 
-        {/* Text - FIRST on Mobile */}
-        <div className="order-1 md:order-2 md:col-span-7 md:px-6 md:pl-20  md:text-left">
+    <div className="relative flex justify-center items-center">
 
-          <h1 className="text-2xl md:text-2xl   lg:text-6xl font-bold mb-6">
-            <span className="text-[#bbfe32]">WHY </span>
-            <span className="text-white">ROCK POWER ?</span>
-          </h1>
 
-          <ul className="text-white space-y-2 md:space-y-4 font-bold">
-            <li className="flex items-start md:items-center gap-1 md:gap-3  md:justify-start">
-              <BsFillPatchCheckFill className="text-[#bbfe32] text-lg md:text-2xl mt-1 md:mt-0" />
-              <span className="text-sm md:text-sm lg:text-xl">
-                SPECIALIZED AND HIGH-QUALITY COMMUNICATION SOLUTION
-              </span>
-            </li>
+{/* Image */}
+<img
+  src={about}
+  alt=""
+  className="block max-w-none h-[650px]"
+/>
+</div>
+      <div>
+        <div className="max-w-prose md:max-w-none text-center  ">
+          <h2 className=" font-bold  text-[#bbfe32] text-3xl lg:text-7xl text-center">
+          روُيتنا
+          </h2>
+          <h2 className=" font-black  text-white text-3xl lg:text-3xl text-center mt-4">
+         OUR VISION
+          </h2>
 
-            <li className="flex items-start md:items-center gap-1 md:gap-3  md:justify-start">
-              <LuHandshake className="text-[#bbfe32] text-lg md:text-2xl mt-1 md:mt-0" />
-              <span className="text-sm md:text-sm lg:text-xl">
-                CREATIVE AND DEDICATED TEAM
-              </span>
-            </li>
+          <p className=" text-pretty text-white mt-6  text-lg">
+          نحن ننشئ حضورًا رقميًا لا يتزعزع يضع عملاءنا في قلب المنافسة، ويمكّنهم من التفوق والهيمنة على السوق الرقمي بقوة لا مثيل لها. نهدف إلى أن نكون الرواد والمصدر الأساسي للإبداع والتحول الرقمي، وبناء جسور بين الحكمة العميقة والاستراتيجية الذكية، مع دمج أحدث التقنيات لتحقيق تأثير ملموس وقوي. رؤيتنا تدور حول تمكين شركائنا للوصول إلى القمة، وتحقيق المجد المستدام، وترك بصمة لا تُنسى في عالم سريع التغير والتطور. نحن نؤمن بأن الابتكار المستمر والتفكير الثاقب هما المفتاح لتشكيل المستقبل، ونسعى جاهدين لجعل كل خطوة إلى الأمام رحلة نحو التميز والقيادة.
+          </p>
 
-            <li className="flex items-start md:items-center gap-1 md:gap-3  md:justify-start">
-              <RiCustomerService2Fill className="text-[#bbfe32] text-lg md:text-2xl mt-1 md:mt-0" />
-              <span className="text-sm md:text-sm lg:text-xl">
-                AFTER-SALES SERVICES
-              </span>
-            </li>
-
-            <li className="flex items-start md:items-center gap-1 md:gap-3  md:justify-start">
-              <GiAirtightHatch className="text-[#bbfe32] text-lg md:text-2xl mt-1 md:mt-0" />
-              <span className="text-sm md:text-sm lg:text-xl">
-                FREE TRAINING AND FAST TECHNICAL SUPPORT
-              </span>
-            </li>
-          </ul>
-
+          
+          <p className=" text-pretty text-white mt-6  text-lg direction-ltr text-left">
+          We create an unshakable digital presence that places our clients at the heart of the competition, empowering them to excel and dominate the digital market with unmatched strength. We aim to be the pioneers and the primary source of creativity and digital transformation, building bridges between deep wisdom and smart strategy, while integrating the latest technologies to achieve tangible and powerful impact. Our vision revolves around empowering our partners to reach the pinnacle, achieve sustainable glory, and leave an unforgettable mark in a rapidly changing and evolving world. We believe that continuous innovation and insightful thinking are the keys to shaping the future, and we strive to make every step forward a journey toward excellence and leadership.
+          </p>
         </div>
-
-        {/* Image - SECOND on Mobile */}
-        <div className="order-2 md:order-1 flex justify-center md:col-span-5">
-          <img
-            src={img1}
-            alt="Hero"
-            className="w-[200px] sm:w-[260px] md:w-full h-auto"
-          />
-        </div>
-
       </div>
-    </section>
+
+     
+    </div>
+  </div>
+</section>
+   
+   
+   </>
   );
 };
 

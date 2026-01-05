@@ -1,67 +1,38 @@
 
-import logo from "../assets/images/8-removebg-preview.png"
+
 const ConsultUs = () => {
   return (
    <>
-  
+   <div className="flex items-center justify-center mt-20">
 
-<div className=" ">
-  <div className="grid grid-cols-2 gap-px md:grid-cols-6">
-    <div className="grid place-content-center p-4  ">
+   <div className="max-w-prose ">
+          <h2 className=" font-bold  text-[#bbfe32] text-3xl lg:text-7xl text-center">
+            لماذا نحن
+          </h2>
+          <h2 className=" font-black  text-white text-4xl lg:text-3xl text-center mt-4">
+         ..WHY US
+          </h2>
 
-   <img src={logo} alt="" />
+          <p className=" text-pretty text-white mt-6  text-lg">" 
+            اختر
+            <span className="text-[#bbfe32] px-0.5">  روك باور</span>
+            لاننا نحول افكارك الرقمية الي نتائج حقيقية . استراتجيات مبتكرة،خبرة عالية، واهتمام كامل بفهم جمهورك لنزيد ظهور علامتك التجارية، نرفع التفاعل ، ونحقق اعلي عائد على الاستثمار (ROI) لنجاحك الرقمي المستدام. "
+          </p>
 
-    </div>
+       
+          
+          <p className=" text-pretty text-white mt-6  text-lg direction-ltr text-left">
+          
+             Choose 
+            <span className="text-[#bbfe32] px-0.5">    Rock Power </span>
+           because we turn your digital ideas into real results. innovative strategies, extensive expertise, and a deep understanding of your audience help boost your brand's visibility, increase engagement , and achieve the highest ROI for sustainable digital success
 
-    <div className="grid place-content-center p-4 ">
-    
-   <img src={logo} alt="" />
-
-    </div>
-
-    <div className="grid place-content-center p-4 ">
-     
-   <img src={logo} alt="" />
-
-    </div>
-
-    <div className="grid place-content-center p-4 ">
-     
-   <img src={logo} alt="" />
-
-    </div>
-
-    <div className="grid place-content-center p-4 ">
-    
-   <img src={logo} alt="" />
-
-    </div>
-
-    <div className="grid place-content-center p-4 ">
-      
-   <img src={logo} alt="" />
-
-    </div>
-  </div>
-</div>
-   
-
-<div className=" flex items-center justify-center mt-16">
-      <div className="bg-white rounded-3xl px-10 py-8 max-w-3xl w-[90%] text-center shadow-2xl">
-        
-        <h2 className="text-black font-extrabold uppercase text-sm md:text-2xl leading-relaxed">
-          We are here to answer your questions 24! <br />
-          Do you need IT solutions services ?
-        </h2>
-
-        <div className="mt-6">
-          <span className="inline-block bg-[#bbfe32] text-black font-extrabold px-8 py-3 rounded-full md:text-xl tracking-wider">
-            +960000000
-          </span>
+          </p>
         </div>
 
-      </div>
-    </div>
+   </div>
+  
+
 
    </>
   );
